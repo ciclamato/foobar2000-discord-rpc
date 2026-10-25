@@ -1,0 +1,5 @@
+{
+  "clientId": "YOUR_DISCORD_APPLICATION_ID",
+  "intervalSeconds": 10,
+  "largeImageKey": "foobar2000"
+}
