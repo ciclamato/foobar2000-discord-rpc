@@ -57,8 +57,10 @@ foobar2000 writes the current song into its window title. The script reads that 
 
 4. **Turn off other Rich Presence plugins.** If you use foo_discord_rich, untick *Enable Rich Presence* in its preferences, otherwise both fight over your status.
 
-5. **Run it.** Double-click `start.cmd`. It starts the script hidden in the background.
-   To start it with Windows, press <kbd>Win</kbd>+<kbd>R</kbd>, type `shell:startup` and put a shortcut to `start.cmd` there.
+5. **Run it.** Double-click `start-hidden.vbs`. It starts the script in the background with no window and no taskbar button.
+   To start it with Windows, press <kbd>Win</kbd>+<kbd>R</kbd>, type `shell:startup` and put a shortcut to `start-hidden.vbs` there.
+
+   `start.cmd` does the same but opens a console window for a moment, so it is only handy for testing.
 
 To stop it, end the `powershell.exe` process that runs `foobar-discord-rpc.ps1` (Task Manager → Details, add the *Command line* column).
 
